@@ -4,11 +4,11 @@
     {
       "slot": "001",
       "bundle_id": "com.enludus.daily.001",
-      "status": "building",
-      "repo": "enludus-daily/app-20261103-pipeline-check",
-      "date": "2026-11-03",
+      "status": "free",
+      "repo": null,
+      "date": null,
       "issue": null,
-      "note": "パイプラインの試験（TestFlight の署名とアップロードの確認）"
+      "note": "2026-11-03 にパイプラインの試験（app-20261103-pipeline-check、ビルド 202611030704）を TestFlight に上げた。毎日のアプリで使い直してよい（提出のときは正しいビルドを選ぶ）"
     },
     {
       "slot": "002",
