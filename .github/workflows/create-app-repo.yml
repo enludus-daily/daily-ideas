@@ -1,0 +1,85 @@
+# その日のアプリのリポジトリを、daily-app-template から作る。
+# セッションは組織向けの API を呼べない（中継が拒否する）ため、作成は Actions に任せる。
+# セッションはこのワークフローを workflow_dispatch で起動するだけで、トークンを持たない。
+#
+# 起動: gh api -X POST repos/enludus-daily/daily-ideas/actions/workflows/create-app-repo.yml/dispatches \
+#         -f ref=main -f 'inputs[name]=app-20261104-water-log' -f 'inputs[description]=…'
+# Issue のイベントでは起動しない（public で誰でも Issue を書けるため）。workflow_dispatch は書き込み権限が要る。
+name: Create app repository
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "リポジトリ名（app-YYYYMMDD-<英小文字・数字・ハイフン>）"
+        required: true
+        type: string
+      description:
+        description: リポジトリの説明（1文）
+        required: false
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: create-app-repo
+  cancel-in-progress: false
+
+jobs:
+  create:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: enludus-daily/daily-actions/guard@v1
+        with:
+          max-per-day: "2"
+          max-consecutive-failures: "2"
+          disabled: ${{ vars.DAILY_GUARD_DISABLED == 'true' && 'true' || 'false' }}
+
+      - name: Validate inputs
+        env:
+          NAME: ${{ inputs.name }}
+          DESCRIPTION: ${{ inputs.description }}
+        run: |
+          set -euo pipefail
+          today=$(TZ=Asia/Tokyo date +%Y%m%d)
+          if ! [[ "$NAME" =~ ^app-[0-9]{8}-[a-z0-9]+(-[a-z0-9]+)*$ ]] || [ ${#NAME} -gt 60 ]; then
+            echo "::error::名前の形が違います（app-YYYYMMDD-<英小文字・数字・ハイフン>、60文字以内）"; exit 1
+          fi
+          if [ "${NAME:4:8}" != "$today" ]; then
+            echo "::error::日付が今日（JST $today）ではありません"; exit 1
+          fi
+          if [ ${#DESCRIPTION} -gt 200 ] || [[ "$DESCRIPTION" == *$'\n'* ]]; then
+            echo "::error::説明は1行、200文字以内"; exit 1
+          fi
+
+      - name: Create from template
+        env:
+          GH_TOKEN: ${{ secrets.DAILY_REPO_CREATOR_TOKEN }}
+          NAME: ${{ inputs.name }}
+          DESCRIPTION: ${{ inputs.description }}
+        run: |
+          set -euo pipefail
+          if [ -z "$GH_TOKEN" ]; then echo "::error::daily-ideas の Secrets に DAILY_REPO_CREATOR_TOKEN がありません"; exit 1; fi
+          if gh api "repos/enludus-daily/$NAME" --silent 2>/dev/null; then
+            echo "::error::enludus-daily/$NAME はすでにあります"; exit 1
+          fi
+          gh api -X POST repos/enludus-daily/daily-app-template/generate \
+            -f owner=enludus-daily -f name="$NAME" -f description="$DESCRIPTION" \
+            -F private=false -F include_all_branches=false --silent
+          # テンプレートの中身がコピーされるまで待つ（作成は非同期）
+          for _ in $(seq 1 30); do
+            if gh api "repos/enludus-daily/$NAME/commits?per_page=1" --silent 2>/dev/null; then break; fi
+            sleep 2
+          done
+          gh api "repos/enludus-daily/$NAME/commits?per_page=1" --silent
+          # 非公開の脆弱性報告を有効にする（.github の SECURITY.md の案内先）。失敗しても作成は成功扱い
+          gh api -X PUT "repos/enludus-daily/$NAME/private-vulnerability-reporting" --silent \
+            || echo "::warning::private vulnerability reporting を有効にできませんでした"
+          {
+            echo "### 作成しました"
+            echo "- https://github.com/enludus-daily/$NAME"
+          } >> "$GITHUB_STEP_SUMMARY"
