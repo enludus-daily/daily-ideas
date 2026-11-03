@@ -33,7 +33,15 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
-      - uses: enludus-daily/daily-actions/guard@v1
+      # daily-actions の部品は SHA で固定する（更新は整備用のセッションか本人。daily-actions の自己 CI が通った SHA にする）
+      - name: Checkout daily-actions (pinned)
+        uses: actions/checkout@v5
+        with:
+          repository: enludus-daily/daily-actions
+          ref: 1468efb28b9e331f0a64d0903e2ed5baeecd71c3 # daily-actions 2026-11-03
+          path: .daily-actions
+          persist-credentials: false
+      - uses: ./.daily-actions/guard
         with:
           max-per-day: "2"
           max-consecutive-failures: "2"

@@ -14,6 +14,11 @@ enludus-daily の「毎日1本の iOS アプリ」の材料と記録。
 - トークンの権限（fine-grained、組織 enludus-daily、All repositories）：Administration = Read and write、Contents = Read、Metadata = Read。
 - 入力の検査：名前は `app-<今日の YYYYMMDD>-<英小文字・数字・ハイフン>` だけ。1日2回まで、連続2回の失敗で止まる（daily-actions@v1 の guard）。
 - Issue のイベントでは起動しない（public で誰でも Issue を書けるため）。
+- ガードは daily-actions を SHA で固定して使う（ワークフロー内の `ref:`）。
+
+## push の前の検査
+
+`git config core.hooksPath .githooks` で、push の前に `scripts/scan-sensitive.sh`（daily-actions/scan/ の複製）が走る。
 
 ## ラベル（`labels.json`）
 
