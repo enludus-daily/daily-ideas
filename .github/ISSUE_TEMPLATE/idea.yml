@@ -1,0 +1,30 @@
+name: アイデア・困りごと
+description: 毎日のアプリの材料。解決策より「だれが・どんな場面で・何に困るか」を書いてください。
+labels: [idea]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        公開のリポジトリです。**名前・連絡先・住所などの個人情報や、勤務先の内部情報は書かないでください。**
+  - type: textarea
+    id: who
+    attributes:
+      label: だれが、どんな場面で
+      placeholder: 例）朝の支度中の親が、子どもの持ち物を確認するとき
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 何に困っているか・何が良くなるとうれしいか
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: そう思う理由（自分の経験、聞いた声、リンクなど）
+  - type: textarea
+    id: idea
+    attributes:
+      label: 解決のアイデア（あれば）
+      description: 1日で作れる、端末の中だけで完結する大きさだと採りやすいです。

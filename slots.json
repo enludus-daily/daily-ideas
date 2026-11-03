@@ -1,0 +1,61 @@
+{
+  "_doc": "Bundle ID の枠の台帳。status: free → building → testflight → ready-for-review → submitted（本人）/ retired。App Store Connect の App の追加は本人が行う。",
+  "slots": [
+    {
+      "slot": "001",
+      "bundle_id": "com.enludus.daily.001",
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null
+    },
+    {
+      "slot": "002",
+      "bundle_id": "com.enludus.daily.002",
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null
+    },
+    {
+      "slot": "003",
+      "bundle_id": "com.enludus.daily.003",
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null
+    },
+    {
+      "slot": "004",
+      "bundle_id": "com.enludus.daily.004",
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null
+    },
+    {
+      "slot": "005",
+      "bundle_id": "com.enludus.daily.005",
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null
+    },
+    {
+      "slot": "006",
+      "bundle_id": "com.enludus.daily.006",
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null
+    },
+    {
+      "slot": "007",
+      "bundle_id": "com.enludus.daily.007",
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null
+    }
+  ]
+}

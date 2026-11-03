@@ -1,0 +1,42 @@
+[
+  {
+    "name": "idea",
+    "color": "1D76DB",
+    "description": "アプリのアイデア・困りごと"
+  },
+  {
+    "name": "used",
+    "color": "C5DEF5",
+    "description": "daily の材料に使ったアイデア"
+  },
+  {
+    "name": "ai-found",
+    "color": "BFD4F2",
+    "description": "daily のセッションが自分で見つけた課題"
+  },
+  {
+    "name": "daily",
+    "color": "0E8A16",
+    "description": "その日の作業の記録"
+  },
+  {
+    "name": "building",
+    "color": "FBCA04",
+    "description": "作っている途中"
+  },
+  {
+    "name": "ready-for-review",
+    "color": "5319E7",
+    "description": "TestFlight まで済み。本人の確認と提出を待つ"
+  },
+  {
+    "name": "needs-human",
+    "color": "D93F0B",
+    "description": "止まった。本人の判断・操作が要る"
+  },
+  {
+    "name": "done",
+    "color": "2EA043",
+    "description": "本人が提出した、または終えた"
+  }
+]
