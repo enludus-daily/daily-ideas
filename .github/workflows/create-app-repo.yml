@@ -38,7 +38,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           repository: enludus-daily/daily-actions
-          ref: 1468efb28b9e331f0a64d0903e2ed5baeecd71c3 # daily-actions 2026-11-03
+          ref: e23391162260978caef6fa1025d92e249965c5ca # daily-actions 2026-11-03-owner-author
           path: .daily-actions
           persist-credentials: false
       - uses: ./.daily-actions/guard
