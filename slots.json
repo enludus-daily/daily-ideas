@@ -4,11 +4,11 @@
     {
       "slot": "001",
       "bundle_id": "com.enludus.daily.001",
-      "status": "testflight",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261103-spread-diary",
       "date": "2026-11-03",
       "issue": 3,
-      "note": "2026-11-04 に「言いたい英語ドリル」に作り直した（同じリポジトリ）。提出は最新のビルドを選ぶ（asc の metadata が提出用のバージョンに選ぶ）。以前のビルド 202611030704（試験）・202611031324（見開き英日記）は使わない"
+      "note": "2026-11-04 に「言いたい英語ドリル」に作り直し、ビルド 202611040621 を内部テスト（daily-internal）に配信。提出用のバージョン 1.0.0 にこのビルドを選んである（asc metadata）"
     },
     {
       "slot": "002",
