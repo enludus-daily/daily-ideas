@@ -13,10 +13,11 @@
     {
       "slot": "002",
       "bundle_id": "com.enludus.daily.002",
-      "status": "building",
+      "status": "testflight",
       "repo": "enludus-daily/app-20261104-self-lab",
       "date": "2026-11-04",
-      "issue": 4
+      "issue": 4,
+      "note": "2026-11-04 じぶん実験室。ビルド 202611041408 を内部テスト（daily-internal）に配信"
     },
     {
       "slot": "003",
