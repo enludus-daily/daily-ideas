@@ -25,6 +25,7 @@ enludus-daily の「毎日1本の iOS アプリ」の材料と記録。
 | ラベル | 意味 |
 |---|---|
 | `idea` / `used` / `ai-found` | アイデア / 材料に使った / セッションが自分で見つけた |
+| `feedback` | 作ったアプリへの意見（本文にリポジトリ名）。毎日のセッションが新しいアプリより先に直し、TestFlight まで出す |
 | `daily` | その日の作業の記録 |
 | `building` → `ready-for-review` | 作っている → TestFlight まで済み、本人の確認と提出待ち |
 | `needs-human` | 止まった。本人の判断・操作が要る |

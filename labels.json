@@ -5,6 +5,11 @@
     "description": "アプリのアイデア・困りごと"
   },
   {
+    "name": "feedback",
+    "color": "E94F6A",
+    "description": "作ったアプリへの本人の意見。毎日のセッションが新しいアプリより先に対応し、TestFlight まで出す"
+  },
+  {
     "name": "used",
     "color": "C5DEF5",
     "description": "daily の材料に使ったアイデア"

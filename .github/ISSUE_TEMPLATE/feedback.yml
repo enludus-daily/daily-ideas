@@ -1,0 +1,17 @@
+name: アプリへの意見
+description: 作ったアプリを使ってみた意見。毎日のセッションが、新しいアプリより先に直して TestFlight に出す。
+labels: [feedback]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: アプリのリポジトリ
+      placeholder: app-20261103-spread-diary
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: 意見（よくない所・こうしてほしい所・よかった所）
+    validations:
+      required: true
