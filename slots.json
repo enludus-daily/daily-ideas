@@ -13,10 +13,10 @@
     {
       "slot": "002",
       "bundle_id": "com.enludus.daily.002",
-      "status": "free",
-      "repo": null,
-      "date": null,
-      "issue": null
+      "status": "building",
+      "repo": "enludus-daily/app-20261104-self-lab",
+      "date": "2026-11-04",
+      "issue": 4
     },
     {
       "slot": "003",
