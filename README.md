@@ -32,4 +32,6 @@ enludus-daily の「毎日1本の iOS アプリ」の材料と記録。
 
 ## 本人がすること
 
-`ready-for-review` の Issue を見て：アプリ名を決める → App Store Connect の仮の名前を変える → TestFlight で確かめる → App プライバシーを申告する → 審査に提出する → `slots.json` を `submitted` にし、Issue に `done` を付ける。
+`ready-for-review` の Issue を見て：TestFlight で確かめる（内部テストのグループ `daily-internal` に自動で届く）→ App プライバシーを申告する → 年齢区分を答える → 審査に提出する → `slots.json` を `submitted` にし、Issue に `done` を付ける。
+
+アプリ名・説明・キーワード・カテゴリ・URL・宣伝文と、提出用のバージョンのビルドの選択は、毎日のセッションが各アプリの `asc.yml`（daily-actions の App Store Connect API）で入れる（本人の許可 2026-11-04）。
