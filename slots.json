@@ -25,7 +25,8 @@
       "status": "building",
       "repo": "enludus-daily/app-20261105-koyomi-haiku",
       "date": "2026-11-05",
-      "issue": 5
+      "issue": 5,
+      "note": "2026-11-05 こよみ句帳を作成。CI 成功（run 42041662452）。TestFlight は署名のエラー（証明書の数が上限）で止まった。本人が証明書を整理したら testflight.yml を実行する"
     },
     {
       "slot": "004",
