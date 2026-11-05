@@ -22,10 +22,10 @@
     {
       "slot": "003",
       "bundle_id": "com.enludus.daily.003",
-      "status": "free",
-      "repo": null,
-      "date": null,
-      "issue": null
+      "status": "building",
+      "repo": "enludus-daily/app-20261105-koyomi-haiku",
+      "date": "2026-11-05",
+      "issue": 5
     },
     {
       "slot": "004",
