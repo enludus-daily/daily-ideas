@@ -31,11 +31,11 @@
     {
       "slot": "004",
       "bundle_id": "com.enludus.daily.004",
-      "status": "building",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261106-batch-prep",
       "date": "2026-11-06",
       "issue": 6,
-      "note": "2026-11-06 作りおき段取り帖（作り置きの段取り × 冷蔵庫の食べきり）を作っている"
+      "note": "2026-11-06 作りおき段取り帖（段取り帖）。ビルド 202611061428 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.004.pro（¥480）を作成。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである"
     },
     {
       "slot": "005",
