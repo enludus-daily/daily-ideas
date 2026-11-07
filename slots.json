@@ -40,10 +40,11 @@
     {
       "slot": "005",
       "bundle_id": "com.enludus.daily.005",
-      "status": "building",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261107-tenarai",
       "date": "2026-11-07",
-      "issue": 7
+      "issue": 7,
+      "note": "2026-11-07 手習い帖（読めるのに書けない漢字の書き取り）。ビルド 202611071415 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.005.pro（¥480）を作成。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである"
     },
     {
       "slot": "006",
