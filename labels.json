@@ -43,5 +43,10 @@
     "name": "done",
     "color": "2EA043",
     "description": "本人が提出した、または終えた"
+  },
+  {
+    "name": "director",
+    "color": "000000",
+    "description": "監督（本人が指揮を任せたセッション）からの指示。毎日のセッションは runbook より先に読んで従う"
   }
 ]
