@@ -4,11 +4,11 @@
     {
       "slot": "001",
       "bundle_id": "com.enludus.daily.001",
-      "status": "building",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261109-push-beat",
       "date": "2026-11-09",
       "issue": 11,
-      "note": "2026-11-09 本人の判断で enludus-daily/app-20261103-spread-diary を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。",
+      "note": "2026-11-09 本人の判断で enludus-daily/app-20261103-spread-diary を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。 2026-11-09 うでたてビート（腕立て × リズムゲーム、#11）。ビルド 202611091511 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.001.pro（¥480）を作成。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである。",
       "history": [
         {
           "repo": "enludus-daily/app-20261103-spread-diary",
