@@ -4,11 +4,19 @@
     {
       "slot": "001",
       "bundle_id": "com.enludus.daily.001",
-      "status": "ready-for-review",
-      "repo": "enludus-daily/app-20261103-spread-diary",
-      "date": "2026-11-03",
-      "issue": 3,
-      "note": "2026-11-05 に app-quality-bar の基準で作り直し（リング綴じの単語カードと赤シート、307 枚の束）、ビルド 202611050147 を内部テスト（daily-internal）に配信。提出用のバージョン 1.0.0 にこのビルドを選んである"
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "note": "2026-11-09 本人の判断で enludus-daily/app-20261103-spread-diary を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。",
+      "history": [
+        {
+          "repo": "enludus-daily/app-20261103-spread-diary",
+          "date": "2026-11-03",
+          "issue": 3,
+          "status": "ready-for-review"
+        }
+      ]
     },
     {
       "slot": "002",
@@ -22,11 +30,19 @@
     {
       "slot": "003",
       "bundle_id": "com.enludus.daily.003",
-      "status": "ready-for-review",
-      "repo": "enludus-daily/app-20261105-koyomi-haiku",
-      "date": "2026-11-05",
-      "issue": 5,
-      "note": "2026-11-05 こよみ句帳。署名を Secrets の証明書 1 枚に変えて（daily-actions 1065caf）ビルド 202611051835 を TestFlight に上げ、内部テスト（daily-internal）に配信。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである"
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "note": "2026-11-09 本人の判断で enludus-daily/app-20261105-koyomi-haiku を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。",
+      "history": [
+        {
+          "repo": "enludus-daily/app-20261105-koyomi-haiku",
+          "date": "2026-11-05",
+          "issue": 5,
+          "status": "ready-for-review"
+        }
+      ]
     },
     {
       "slot": "004",
@@ -49,11 +65,19 @@
     {
       "slot": "006",
       "bundle_id": "com.enludus.daily.006",
-      "status": "ready-for-review",
-      "repo": "enludus-daily/app-20261108-kosouji",
-      "date": "2026-11-08",
-      "issue": 8,
-      "note": "2026-11-08 こそうじ暦（大掃除を 1 日 10 分の小掃除に分ける）。ビルド 202611081416 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.006.pro（¥480）を作成。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである"
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "note": "2026-11-09 本人の判断で enludus-daily/app-20261108-kosouji を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。 App 内課金 com.enludus.daily.006.pro（¥480）が App Store Connect に残っている。新しいアプリはこの商品 ID を Pro に使い、asc.yml の products で名前・説明・価格を新しいアプリに合わせて更新する（削除は本人だけ）。",
+      "history": [
+        {
+          "repo": "enludus-daily/app-20261108-kosouji",
+          "date": "2026-11-08",
+          "issue": 8,
+          "status": "ready-for-review"
+        }
+      ]
     },
     {
       "slot": "007",
