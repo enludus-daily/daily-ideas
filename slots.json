@@ -65,11 +65,11 @@
     {
       "slot": "006",
       "bundle_id": "com.enludus.daily.006",
-      "status": "building",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261109-tamahebi",
       "date": "2026-11-09",
       "issue": 10,
-      "note": "2026-11-09 本人がゲームの方で使うため取り置き。毎日のセッションは使わない（free ではない）。前のアプリ（こそうじ暦）の履歴は history にある。 2026-11-09 ころがれ！タマヘビ（本人のゲーム、#10）で使う。App 内課金 com.enludus.daily.006.pro を Pro に使い回す。",
+      "note": "2026-11-09 本人がゲームの方で使うため取り置き。毎日のセッションは使わない（free ではない）。前のアプリ（こそうじ暦）の履歴は history にある。 2026-11-09 ころがれ！タマヘビ（本人のゲーム、#10）で使う。App 内課金 com.enludus.daily.006.pro を Pro に使い回す。 ビルド 202611090719 を TestFlight に上げ、内部テスト（daily-internal）に配信。Pro の名前・説明・¥480 を products で更新。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである。",
       "history": [
         {
           "repo": "enludus-daily/app-20261108-kosouji",
