@@ -1,5 +1,5 @@
 {
-  "_doc": "Bundle ID の枠の台帳。status: free → building → testflight → ready-for-review → submitted（本人）/ retired。App Store Connect の App の追加は本人が行う。",
+  "_doc": "Bundle ID の枠の台帳。status: free → building → testflight → ready-for-review → submitted（本人）/ retired / reserved（本人が別の用途で取り置き。使わない）。App Store Connect の App の追加は本人が行う。",
   "slots": [
     {
       "slot": "001",
@@ -65,11 +65,11 @@
     {
       "slot": "006",
       "bundle_id": "com.enludus.daily.006",
-      "status": "free",
+      "status": "reserved",
       "repo": null,
       "date": null,
       "issue": null,
-      "note": "2026-11-09 本人の判断で enludus-daily/app-20261108-kosouji を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。 App 内課金 com.enludus.daily.006.pro（¥480）が App Store Connect に残っている。新しいアプリはこの商品 ID を Pro に使い、asc.yml の products で名前・説明・価格を新しいアプリに合わせて更新する（削除は本人だけ）。",
+      "note": "2026-11-09 本人がゲームの方で使うため取り置き。毎日のセッションは使わない（free ではない）。前のアプリ（こそうじ暦）の履歴は history にある。",
       "history": [
         {
           "repo": "enludus-daily/app-20261108-kosouji",
