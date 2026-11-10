@@ -8,7 +8,7 @@
       "repo": "enludus-daily/app-20261109-push-beat",
       "date": "2026-11-09",
       "issue": 11,
-      "note": "2026-11-09 本人の判断で enludus-daily/app-20261103-spread-diary を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。 2026-11-09 うでたてビート（腕立て × リズムゲーム、#11）。ビルド 202611091511 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.001.pro（¥480）を作成。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである。",
+      "note": "2026-11-09 本人の判断で enludus-daily/app-20261103-spread-diary を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。 2026-11-09 うでたてビート（腕立て × リズムゲーム、#11）。ビルド 202611091511 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.001.pro（¥480）を作成。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである。 2026-11-10 監督のレビュー #12 に対応（黒い丸・レコードの反射・判定の文字・推定の売上）。ビルド 202611101326 を TestFlight に上げ、daily-internal に配信（distribute は asc.yml でやり直して成功）。提出用のバージョンのビルドは前のまま（202611091511）。",
       "history": [
         {
           "repo": "enludus-daily/app-20261103-spread-diary",
@@ -30,11 +30,11 @@
     {
       "slot": "003",
       "bundle_id": "com.enludus.daily.003",
-      "status": "building",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261110-neck-balloon",
       "date": "2026-11-10",
       "issue": 14,
-      "note": "2026-11-09 本人の判断で enludus-daily/app-20261105-koyomi-haiku を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。",
+      "note": "2026-11-09 本人の判断で enludus-daily/app-20261105-koyomi-haiku を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。 2026-11-10 くびふうせん（肩こり × 顔の向きで遊ぶゲーム、#14）。ビルド 202611101421 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.003.pro（¥480）を作成。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである。",
       "history": [
         {
           "repo": "enludus-daily/app-20261105-koyomi-haiku",
