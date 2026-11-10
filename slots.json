@@ -30,10 +30,10 @@
     {
       "slot": "003",
       "bundle_id": "com.enludus.daily.003",
-      "status": "free",
-      "repo": null,
-      "date": null,
-      "issue": null,
+      "status": "building",
+      "repo": "enludus-daily/app-20261110-neck-balloon",
+      "date": "2026-11-10",
+      "issue": 14,
       "note": "2026-11-09 本人の判断で enludus-daily/app-20261105-koyomi-haiku を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。",
       "history": [
         {
