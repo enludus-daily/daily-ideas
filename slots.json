@@ -90,11 +90,11 @@
     {
       "slot": "007",
       "bundle_id": "com.enludus.daily.007",
-      "status": "building",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261111-deadline-defense",
       "date": "2026-11-11",
       "issue": 18,
-      "note": "2026-11-11 しめきりディフェンス（先延ばし × タワーディフェンス、#18）。"
+      "note": "2026-11-11 しめきりディフェンス（先延ばし × タワーディフェンス、#18）。ビルド 202611111407 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.007.pro（¥600・買い切り）を作成。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである。"
     },
     {
       "slot": "008",
