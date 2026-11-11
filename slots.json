@@ -1,5 +1,5 @@
 {
-  "_doc": "Bundle ID の枠の台帳。status: free → building → testflight → ready-for-review → submitted（本人）/ retired / reserved（本人が別の用途で取り置き。使わない）。App Store Connect の App の追加は本人が行う。",
+  "_doc": "Bundle ID の枠の台帳。status: free → building → testflight → ready-for-review → submitted（本人）/ retired / reserved（本人が別の用途で取り置き。使わない）/ requested（本人が App を足すのを待つ。使わない）。App Store Connect の App の追加は本人が行う。",
   "slots": [
     {
       "slot": "001",
@@ -95,6 +95,51 @@
       "date": "2026-11-11",
       "issue": 18,
       "note": "2026-11-11 しめきりディフェンス（先延ばし × タワーディフェンス、#18）。"
+    },
+    {
+      "slot": "008",
+      "bundle_id": "com.enludus.daily.008",
+      "status": "requested",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "note": "2026-11-11 予定（#19）のために本人が App Store Connect に App を足す。足したら free にする（監督が本人の連絡を受けて直す）。requested のあいだは毎日のセッションは使わない。"
+    },
+    {
+      "slot": "009",
+      "bundle_id": "com.enludus.daily.009",
+      "status": "requested",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "note": "2026-11-11 予定（#19）のために本人が App Store Connect に App を足す。足したら free にする（監督が本人の連絡を受けて直す）。requested のあいだは毎日のセッションは使わない。"
+    },
+    {
+      "slot": "010",
+      "bundle_id": "com.enludus.daily.010",
+      "status": "requested",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "note": "2026-11-11 予定（#19）のために本人が App Store Connect に App を足す。足したら free にする（監督が本人の連絡を受けて直す）。requested のあいだは毎日のセッションは使わない。"
+    },
+    {
+      "slot": "011",
+      "bundle_id": "com.enludus.daily.011",
+      "status": "requested",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "note": "2026-11-11 予定（#19）のために本人が App Store Connect に App を足す。足したら free にする（監督が本人の連絡を受けて直す）。requested のあいだは毎日のセッションは使わない。"
+    },
+    {
+      "slot": "012",
+      "bundle_id": "com.enludus.daily.012",
+      "status": "requested",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "note": "2026-11-11 予定（#19）のために本人が App Store Connect に App を足す。足したら free にする（監督が本人の連絡を受けて直す）。requested のあいだは毎日のセッションは使わない。"
     }
   ]
 }
