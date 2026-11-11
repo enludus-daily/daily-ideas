@@ -30,11 +30,11 @@
     {
       "slot": "003",
       "bundle_id": "com.enludus.daily.003",
-      "status": "free",
-      "repo": null,
-      "date": null,
-      "issue": null,
-      "note": "2026-11-09 本人の判断で enludus-daily/app-20261105-koyomi-haiku を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。",
+      "status": "ready-for-review",
+      "repo": "enludus-daily/app-20261110-neck-balloon",
+      "date": "2026-11-10",
+      "issue": 14,
+      "note": "2026-11-09 本人の判断で enludus-daily/app-20261105-koyomi-haiku を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。前のビルドは TestFlight に残るが、提出用のバージョンには新しいビルドを選ぶ。 2026-11-10 くびふうせん（肩こり × 顔の向きで遊ぶ、#14）。ビルド 202611101421 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.003.pro（¥480）。※台帳への記入が抜けていたので、監督が 2026-11-11 に直した。",
       "history": [
         {
           "repo": "enludus-daily/app-20261105-koyomi-haiku",
