@@ -56,11 +56,11 @@
     {
       "slot": "005",
       "bundle_id": "com.enludus.daily.005",
-      "status": "free",
-      "repo": null,
-      "date": null,
-      "issue": null,
-      "note": "2026-11-11 本人の判断で enludus-daily/app-20261107-tenarai（手習い帖）を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。App 内課金 com.enludus.daily.005.pro（¥480）が残っている。新しいアプリはこの商品 ID を Pro に使い、asc.yml の products で名前・説明・価格を更新する（削除は本人だけ）。",
+      "status": "building",
+      "repo": "enludus-daily/app-20261112-mimi-awase",
+      "date": "2026-11-12",
+      "issue": 22,
+      "note": "2026-11-11 本人の判断で enludus-daily/app-20261107-tenarai（手習い帖）を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。App 内課金 com.enludus.daily.005.pro（¥480）が残っている。新しいアプリはこの商品 ID を Pro に使い、asc.yml の products で名前・説明・価格を更新する（削除は本人だけ）。 2026-11-12 みみ合わせ（音痴 × 音の神経衰弱、#22）を作り始めた。",
       "history": [
         {
           "repo": "enludus-daily/app-20261107-tenarai",
