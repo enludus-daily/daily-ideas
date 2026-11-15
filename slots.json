@@ -47,11 +47,19 @@
     {
       "slot": "004",
       "bundle_id": "com.enludus.daily.004",
-      "status": "ready-for-review",
-      "repo": "enludus-daily/app-20261106-batch-prep",
-      "date": "2026-11-06",
-      "issue": 6,
-      "note": "2026-11-06 作りおき段取り帖（段取り帖）。ビルド 202611061428 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.004.pro（¥480）を作成。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである"
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "note": "2026-11-16 本人の判断で enludus-daily/app-20261106-batch-prep（段取りラン）を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。App 内課金 com.enludus.daily.004.pro（¥800）が残っている。新しいアプリはこの商品 ID を Pro に使い、asc.yml の products で名前・説明・価格を更新する（削除は本人だけ）。",
+      "history": [
+        {
+          "repo": "enludus-daily/app-20261106-batch-prep",
+          "date": "2026-11-06",
+          "issue": 6,
+          "status": "ready-for-review"
+        }
+      ]
     },
     {
       "slot": "005",
@@ -99,47 +107,90 @@
     {
       "slot": "008",
       "bundle_id": "com.enludus.daily.008",
-      "status": "requested",
-      "repo": null,
-      "date": null,
-      "issue": null,
-      "note": "2026-11-11 予定（#19）のために本人が App Store Connect に App を足す。足したら free にする（監督が本人の連絡を受けて直す）。requested のあいだは毎日のセッションは使わない。"
+      "status": "building",
+      "repo": "enludus-daily/app-20261113-dawn-sky",
+      "date": "2026-11-13",
+      "issue": 24,
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（チーム X97ZJZ42VZ）。CI まで済み。TestFlight は署名の確認のあと。",
+      "app_name": "あさやけ図鑑：起きたら空を集める",
+      "apple_id": "6835155412"
     },
     {
       "slot": "009",
       "bundle_id": "com.enludus.daily.009",
-      "status": "requested",
-      "repo": null,
-      "date": null,
-      "issue": null,
-      "note": "2026-11-11 予定（#19）のために本人が App Store Connect に App を足す。足したら free にする（監督が本人の連絡を受けて直す）。requested のあいだは毎日のセッションは使わない。"
+      "status": "building",
+      "repo": "enludus-daily/app-20261114-squat-city",
+      "date": "2026-11-14",
+      "issue": 26,
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（チーム X97ZJZ42VZ）。CI まで済み。TestFlight は署名の確認のあと。",
+      "app_name": "しゃがんで建てる：スクワットで街づくり",
+      "apple_id": "6835155727"
     },
     {
       "slot": "010",
       "bundle_id": "com.enludus.daily.010",
-      "status": "requested",
-      "repo": null,
-      "date": null,
-      "issue": null,
-      "note": "2026-11-11 予定（#19）のために本人が App Store Connect に App を足す。足したら free にする（監督が本人の連絡を受けて直す）。requested のあいだは毎日のセッションは使わない。"
+      "status": "building",
+      "repo": "enludus-daily/app-20261115-one-stop-riddle",
+      "date": "2026-11-15",
+      "issue": 28,
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（チーム X97ZJZ42VZ）。CI まで済み。TestFlight は署名の確認のあと。",
+      "app_name": "ひと駅なぞとき：通勤2分の謎解き",
+      "apple_id": "6835155517"
     },
     {
       "slot": "011",
       "bundle_id": "com.enludus.daily.011",
-      "status": "requested",
+      "status": "free",
       "repo": null,
       "date": null,
       "issue": null,
-      "note": "2026-11-11 予定（#19）のために本人が App Store Connect に App を足す。足したら free にする（監督が本人の連絡を受けて直す）。requested のあいだは毎日のセッションは使わない。"
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。",
+      "apple_id": "6835155782",
+      "app_name": "Enludus Daily 011"
     },
     {
       "slot": "012",
       "bundle_id": "com.enludus.daily.012",
-      "status": "requested",
+      "status": "free",
       "repo": null,
       "date": null,
       "issue": null,
-      "note": "2026-11-11 予定（#19）のために本人が App Store Connect に App を足す。足したら free にする（監督が本人の連絡を受けて直す）。requested のあいだは毎日のセッションは使わない。"
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。",
+      "apple_id": "6835155633",
+      "app_name": "Enludus Daily 012"
+    },
+    {
+      "slot": "013",
+      "bundle_id": "com.enludus.daily.013",
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "apple_id": "6835156156",
+      "app_name": "Enludus Daily 013",
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。"
+    },
+    {
+      "slot": "014",
+      "bundle_id": "com.enludus.daily.014",
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "apple_id": "6835156251",
+      "app_name": "Enludus Daily 014",
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。"
+    },
+    {
+      "slot": "015",
+      "bundle_id": "com.enludus.daily.015",
+      "status": "free",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "apple_id": "6835156176",
+      "app_name": "Enludus Daily 015",
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。"
     }
   ]
 }
