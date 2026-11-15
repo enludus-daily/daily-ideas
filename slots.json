@@ -110,27 +110,27 @@
       "repo": "enludus-daily/app-20261111-deadline-defense",
       "date": "2026-11-11",
       "issue": 18,
-      "note": "2026-11-11 しめきりディフェンス（先延ばし × タワーディフェンス、#18）。ビルド 202611111407 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.007.pro（¥600・買い切り）を作成。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである。"
+      "note": "2026-11-11 しめきりディフェンス（先延ばし × タワーディフェンス、#18）。ビルド 202611111407 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.007.pro（¥600・買い切り）を作成。asc metadata で情報を入れ、提出用のバージョンにこのビルドを選んである。 2026-11-16 直しの版をビルド 202611151740 で TestFlight に配信（署名のエラーが直ったあと）。"
     },
     {
       "slot": "008",
       "bundle_id": "com.enludus.daily.008",
-      "status": "building",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261113-dawn-sky",
       "date": "2026-11-13",
       "issue": 24,
-      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（チーム X97ZJZ42VZ）。CI まで済み。TestFlight は署名の確認のあと。",
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（チーム X97ZJZ42VZ）。CI まで済み。TestFlight は署名の確認のあと。 2026-11-16 監督が TestFlight（ビルド 202611151748）に上げ daily-internal に配信、asc の products・metadata を入れた。",
       "app_name": "あさやけ図鑑：起きたら空を集める",
       "apple_id": "6835155412"
     },
     {
       "slot": "009",
       "bundle_id": "com.enludus.daily.009",
-      "status": "building",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261114-squat-city",
       "date": "2026-11-14",
       "issue": 26,
-      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（チーム X97ZJZ42VZ）。CI まで済み。TestFlight は署名の確認のあと。",
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（チーム X97ZJZ42VZ）。CI まで済み。TestFlight は署名の確認のあと。 2026-11-16 監督が TestFlight（ビルド 202611151748）に上げ daily-internal に配信、asc の products・metadata を入れた。",
       "app_name": "しゃがんで建てる：スクワットで街づくり",
       "apple_id": "6835155727"
     },
