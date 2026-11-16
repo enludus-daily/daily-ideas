@@ -148,11 +148,11 @@
     {
       "slot": "011",
       "bundle_id": "com.enludus.daily.011",
-      "status": "building",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261116-menu-mahjong",
       "date": "2026-11-16",
       "issue": 31,
-      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。 2026-11-16 献立マージャン（麻雀 × 料理、#31）を作り始めた。",
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。 2026-11-16 献立マージャン（麻雀 × 料理、#31）を作り始めた。 ビルド 202611161846 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.011.pro（¥480）を作成。asc metadata で「献立マージャン / Menu Mahjong」を入れ、提出用のバージョンにこのビルドを選んである。",
       "apple_id": "6835155782",
       "app_name": "献立マージャン"
     },
