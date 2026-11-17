@@ -159,13 +159,13 @@
     {
       "slot": "012",
       "bundle_id": "com.enludus.daily.012",
-      "status": "free",
-      "repo": null,
-      "date": null,
-      "issue": null,
+      "status": "building",
+      "repo": "enludus-daily/app-20261117-reversi-delve",
+      "date": "2026-11-17",
+      "issue": 33,
       "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。",
       "apple_id": "6835155633",
-      "app_name": "Enludus Daily 012"
+      "app_name": "迷宮リバーシ"
     },
     {
       "slot": "013",
