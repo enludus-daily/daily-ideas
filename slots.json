@@ -199,6 +199,33 @@
       "apple_id": "6835156176",
       "app_name": "Enludus Daily 015",
       "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。"
+    },
+    {
+      "slot": "016",
+      "bundle_id": "com.enludus.daily.016",
+      "status": "requested",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "note": "2026-11-18 予定（#36）のために本人が App Store Connect に App を足す。足したら free にする。"
+    },
+    {
+      "slot": "017",
+      "bundle_id": "com.enludus.daily.017",
+      "status": "requested",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "note": "2026-11-18 予定（#36）のために本人が App Store Connect に App を足す。足したら free にする。"
+    },
+    {
+      "slot": "018",
+      "bundle_id": "com.enludus.daily.018",
+      "status": "requested",
+      "repo": null,
+      "date": null,
+      "issue": null,
+      "note": "2026-11-18 予定（#36）のために本人が App Store Connect に App を足す。足したら free にする。"
     }
   ]
 }
