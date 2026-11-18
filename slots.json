@@ -170,13 +170,13 @@
     {
       "slot": "013",
       "bundle_id": "com.enludus.daily.013",
-      "status": "building",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261118-uosagashi",
       "date": "2026-11-18",
       "issue": 35,
       "apple_id": "6835156156",
-      "app_name": "Enludus Daily 013",
-      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。"
+      "app_name": "うおさがし：数を読んで魚を釣るパズル",
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。 2026-11-18 うおさがし（マインスイーパー × 釣り、#35）。ビルド 202611181542 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.013.pro（¥480）を作成。asc metadata で名前・説明などを入れ、提出用のバージョンにビルドを選んだ。"
     },
     {
       "slot": "014",
