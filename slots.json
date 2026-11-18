@@ -159,11 +159,11 @@
     {
       "slot": "012",
       "bundle_id": "com.enludus.daily.012",
-      "status": "testflight",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261117-reversi-delve",
       "date": "2026-11-17",
       "issue": 33,
-      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。 2026-11-17 迷宮リバーシ / Reversi Delve（リバーシ × ローグライク、#33）。ビルド 202611171651 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.012.pro（¥480）を作成。asc metadata は HTTP 401 で止まり、App Store Connect の名前はまだ「Enludus Daily 012」のまま（本人の確認待ち）。",
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。 2026-11-17 迷宮リバーシ / Reversi Delve（リバーシ × ローグライク、#33）。ビルド 202611171651 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.012.pro（¥480）を作成。asc metadata は HTTP 401 で止まり、App Store Connect の名前はまだ「Enludus Daily 012」のまま（本人の確認待ち）。 2026-11-18 asc metadata を 1 回流して成功（run 44309754687、#35 のセッション）。",
       "apple_id": "6835155633",
       "app_name": "迷宮リバーシ"
     },
