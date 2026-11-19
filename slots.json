@@ -181,13 +181,13 @@
     {
       "slot": "014",
       "bundle_id": "com.enludus.daily.014",
-      "status": "building",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261119-lockword",
       "date": "2026-11-19",
       "issue": 38,
       "apple_id": "6835156251",
-      "app_name": "Enludus Daily 014",
-      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。"
+      "app_name": "カギことば：クロスワード脱出",
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。 2026-11-19 カギことば：クロスワード脱出 / Lockword: Crossword Escape（クロスワード × 脱出ゲーム、#38）。ビルド 202611191606 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.014.pro（¥480）を作成。asc metadata で名前・説明などを入れ、提出用のバージョンにビルドを選んだ。"
     },
     {
       "slot": "015",
