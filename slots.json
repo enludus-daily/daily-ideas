@@ -181,10 +181,10 @@
     {
       "slot": "014",
       "bundle_id": "com.enludus.daily.014",
-      "status": "free",
-      "repo": null,
-      "date": null,
-      "issue": null,
+      "status": "building",
+      "repo": "enludus-daily/app-20261119-lockword",
+      "date": "2026-11-19",
+      "issue": 38,
       "apple_id": "6835156251",
       "app_name": "Enludus Daily 014",
       "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。"
