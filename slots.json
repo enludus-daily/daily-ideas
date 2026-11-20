@@ -192,13 +192,13 @@
     {
       "slot": "015",
       "bundle_id": "com.enludus.daily.015",
-      "status": "building",
+      "status": "ready-for-review",
       "repo": "enludus-daily/app-20261120-lantern-isle",
       "date": "2026-11-20",
       "issue": 40,
       "apple_id": "6835156176",
-      "app_name": "Enludus Daily 015",
-      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。 2026-11-20 灯り島（サバイバー × 島暮らし、#40）を作り始めた。"
+      "app_name": "灯り島：昼は島づくり、夜は生きのびる",
+      "note": "2026-11-16 本人（Codex）が App Store Connect に App を作成（仮の名前）。使ったアプリは asc.yml の metadata で本当の名前に上書きし、app_name と GitHub の表記も合わせる。 2026-11-20 灯り島（サバイバー × 島暮らし、#40）を作り始めた。 灯り島 / Lantern Isle: Craft & Survive。ビルド 202611201649 を TestFlight に上げ、内部テスト（daily-internal）に配信。App 内課金 com.enludus.daily.015.pro（¥480・買い切り）を作成。asc metadata で名前・説明などを入れ、提出用のバージョンにこのビルドを選んだ。"
     },
     {
       "slot": "016",
