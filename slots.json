@@ -21,11 +21,11 @@
     {
       "slot": "002",
       "bundle_id": "com.enludus.daily.002",
-      "status": "free",
-      "repo": null,
-      "date": null,
-      "issue": null,
-      "note": "2026-11-16 本人の判断で enludus-daily/app-20261104-self-lab（じぶん実験室）を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。App 内課金 com.enludus.daily.002.pro（¥600）が残っている。新しいアプリはこの商品 ID を Pro に使い、asc.yml の products で名前・説明・価格を更新する（削除は本人だけ）。",
+      "status": "building",
+      "repo": "enludus-daily/app-20261121-twirl-tower",
+      "date": "2026-11-21",
+      "issue": 42,
+      "note": "2026-11-16 本人の判断で enludus-daily/app-20261104-self-lab（じぶん実験室）を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。App 内課金 com.enludus.daily.002.pro（¥600）が残っている。新しいアプリはこの商品 ID を Pro に使い、asc.yml の products で名前・説明・価格を更新する（削除は本人だけ）。 2026-11-21 まわる塔とかくれ猫（錯視の建物 × かくれんぼ、#42）を作り始めた。",
       "history": [
         {
           "repo": "enludus-daily/app-20261104-self-lab",
@@ -33,7 +33,8 @@
           "issue": 4,
           "status": "ready-for-review"
         }
-      ]
+      ],
+      "app_name": "まわる塔とかくれ猫 / Twirl Tower: Hidden Cats"
     },
     {
       "slot": "003",
