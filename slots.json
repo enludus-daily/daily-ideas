@@ -60,7 +60,7 @@
       "repo": "enludus-daily/app-20261122-tumble-garden",
       "date": "2026-11-22",
       "issue": 44,
-      "note": "2026-11-16 本人の判断で enludus-daily/app-20261106-batch-prep（段取りラン）を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。App 内課金 com.enludus.daily.004.pro（¥800）が残っている。新しいアプリはこの商品 ID を Pro に使い、asc.yml の products で名前・説明・価格を更新する（削除は本人だけ）。 2026-11-22 ころころ菜園（落として合体 × 農場の一年、#44）を作り始めた。 ビルド 202611221531 を TestFlight に上げた。App 内課金 com.enludus.daily.004.pro を「ころころ菜園 Pro」¥480 に更新。 内部テスト（daily-internal）に配信、asc metadata で名前・説明などを上書きし、提出用のバージョンにこのビルドを選んである。",
+      "note": "2026-11-16 本人の判断で enludus-daily/app-20261106-batch-prep（段取りラン）を止め、枠を使い回す（未提出）。App Store Connect の App はそのまま使い、新しいアプリの名前・説明などは asc.yml の metadata で上書きする。App 内課金 com.enludus.daily.004.pro（¥800）が残っている。新しいアプリはこの商品 ID を Pro に使い、asc.yml の products で名前・説明・価格を更新する（削除は本人だけ）。 2026-11-22 ころころ菜園（落として合体 × 農場の一年、#44）を作り始めた。 ビルド 202611221531 を TestFlight に上げた。App 内課金 com.enludus.daily.004.pro を「ころころ菜園 Pro」¥480 に更新。 内部テスト（daily-internal）に配信、asc metadata で名前・説明などを上書きし、提出用のバージョンにこのビルドを選んである。 ビルド 202611221612 を出し直して配信し、提出用のバージョンにこのビルドを選び直した。",
       "history": [
         {
           "repo": "enludus-daily/app-20261106-batch-prep",
