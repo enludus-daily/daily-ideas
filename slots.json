@@ -206,10 +206,11 @@
       "slot": "016",
       "bundle_id": "com.enludus.daily.016",
       "status": "requested",
-      "repo": null,
-      "date": null,
-      "issue": null,
-      "note": "2026-11-18 予定（#36）のために本人が App Store Connect に App を足す。足したら free にする。"
+      "repo": "enludus-daily/app-20261123-gaman-aquarium",
+      "date": "2026-11-23",
+      "issue": 47,
+      "note": "2026-11-23 がまん水族館を作った（CI 通過・TestFlight 未）。App Store Connect の App が本人によって足されるのを待っている。足したら status を testflight 待ちにして、products → TestFlight → metadata を出す。",
+      "app_name": "がまん水族館：買わずに育てる魚 / Wishfish: No-Buy Aquarium"
     },
     {
       "slot": "017",
