@@ -216,10 +216,11 @@
       "slot": "017",
       "bundle_id": "com.enludus.daily.017",
       "status": "requested",
-      "repo": null,
-      "date": null,
-      "issue": null,
-      "note": "2026-11-18 予定（#36）のために本人が App Store Connect に App を足す。足したら free にする。"
+      "repo": "enludus-daily/app-20261124-star-compass",
+      "date": "2026-11-24",
+      "issue": 50,
+      "note": "2026-11-24 ほしよみ天文台を作った（CI まで）。App Store Connect の App が本人によって足されるのを待っている。足したら status を testflight 待ちにして、products → TestFlight → metadata を出す。",
+      "app_name": "ほしよみ天文台：夜空で場所当て / Star Compass: Sky GeoGuess"
     },
     {
       "slot": "018",
