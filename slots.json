@@ -229,7 +229,8 @@
       "repo": "enludus-daily/app-20261125-claw-pack",
       "date": "2026-11-25",
       "issue": 53,
-      "note": "2026-11-18 予定（#36）のために本人が App Store Connect に App を足す。足したら free にする。 2026-11-25 つかんで荷造り（クレーンゲーム × 引っ越しの荷造り、#53）を作り始めた。App Store Connect の App が足されるのを待つ（status は requested のまま）。"
+      "note": "2026-11-18 予定（#36）のために本人が App Store Connect に App を足す。足したら free にする。 2026-11-25 つかんで荷造り（クレーンゲーム × 引っ越しの荷造り、#53）を作り始めた。CI まで通した（run 45641150765）。App Store Connect の App が本人によって足されるのを待っている。足したら status を testflight 待ちにして、products → TestFlight → metadata を出す。",
+      "app_name": "つかんで荷造り：引っ越しクレーン / Claw & Pack: Moving Day"
     }
   ]
 }
