@@ -226,10 +226,10 @@
       "slot": "018",
       "bundle_id": "com.enludus.daily.018",
       "status": "requested",
-      "repo": null,
-      "date": null,
-      "issue": null,
-      "note": "2026-11-18 予定（#36）のために本人が App Store Connect に App を足す。足したら free にする。"
+      "repo": "enludus-daily/app-20261125-claw-pack",
+      "date": "2026-11-25",
+      "issue": 53,
+      "note": "2026-11-18 予定（#36）のために本人が App Store Connect に App を足す。足したら free にする。 2026-11-25 つかんで荷造り（クレーンゲーム × 引っ越しの荷造り、#53）を作り始めた。App Store Connect の App が足されるのを待つ（status は requested のまま）。"
     }
   ]
 }
