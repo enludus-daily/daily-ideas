@@ -236,10 +236,11 @@
       "slot": "019",
       "bundle_id": "com.enludus.daily.019",
       "status": "requested",
-      "repo": null,
-      "date": null,
-      "issue": null,
-      "note": "2026-11-26 監督が足した（016〜018 を使い切ったため）。本人が App Store Connect に App を足すまでは、作業は CI までで止める。足したら free にする。"
+      "repo": "enludus-daily/app-20261126-dust-rush",
+      "date": "2026-11-26",
+      "issue": 56,
+      "note": "2026-11-26 監督が足した（016〜018 を使い切ったため）。本人が App Store Connect に App を足すまでは、作業は CI までで止める。足したら free にする。 2026-11-26 すいこみロボ（サバイバー × お掃除ロボ、#56）を作り始めた。App Store Connect の App が本人によって足されるのを待っている。足したら status を testflight 待ちにして、products → TestFlight → metadata を出す。",
+      "app_name": "すいこみロボ：充電が切れる前に帰れ / Dust Rush: Robot Vacuum"
     },
     {
       "slot": "020",
