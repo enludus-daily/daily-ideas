@@ -256,10 +256,11 @@
       "slot": "021",
       "bundle_id": "com.enludus.daily.021",
       "status": "requested",
-      "repo": null,
-      "date": null,
-      "issue": null,
-      "note": "2026-11-28 監督が足した（020 まで使い切ったため）。本人が App Store Connect に App を足すまでは、作業は CI までで止める。足したら free にする。"
+      "repo": "enludus-daily/app-20261128-island-post",
+      "date": "2026-11-28",
+      "issue": 62,
+      "note": "2026-11-28 監督が足した（020 まで使い切ったため）。本人が App Store Connect に App を足すまでは、作業は CI までで止める。足したら free にする。 2026-11-28 しまの郵便屋さん（島ぐらし × 郵便配達、#62）を作り始めた。App Store Connect の App が本人によって足されるのを待っている。足したら status を testflight 待ちにして、products → TestFlight → metadata を出す。",
+      "app_name": "しまの郵便屋さん：道順パズル / Island Post: Route Puzzle"
     },
     {
       "slot": "022",
